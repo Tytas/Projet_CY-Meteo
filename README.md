@@ -7,6 +7,7 @@ Utilisation :
 Pour utiliser ce script, il faut ouvrir un terminal et accéder au répertoire contenant le fichier shell, "script.sh". Ensuite, exécutez la commande suivante:
 
 ./script.sh <OPTIONS>
+  
 Les options disponibles sont les suivantes:
 
 --help: Affiche un message d'aide sur l'utilisation du script.
@@ -22,8 +23,8 @@ Les options disponibles sont les suivantes:
   -1) Produit produit en sortie les pressions minimales, maximales et moyennes par station.
   -2) produit en sortie les pressions moyennes par date/heure.
   -3) produit en sortie les pressions par date/heure par station.
--m: Contient les informations sur l'humidité.
--h: Contient les informations sur les altitudes.
+-m: Contient les informations sur l'humidité : produit en sortie l’humidité maximale pour chaque station.
+-h: Contient les informations sur les altitudes : produit en sortie l’altitude pour chaque station.
   
 les options peuvent être entrées dans n'importe quel ordre.
 
