@@ -11,20 +11,29 @@ Pour utiliser ce script, il faut ouvrir un terminal et accéder au répertoire c
 Les options disponibles sont les suivantes:
 
 --help: Affiche un message d'aide sur l'utilisation du script.
+
 --abr: Utilise les arbres binaires de recherche comme mode de tri dans le programme c.
+
 --avl: Utilise les arbres binaires de recherche équilibrés comme mode de tri dans le programme.
+
 --tab: Utilise les tableaux comme mode de tri dans le programme c.
+
 -f: Spécifie le fichier d'entrée obligatoire.
+
 -t: Spécifie le mode de température (1, 2 ou 3).
   -1) Produit produit en sortie les températures minimales, maximales et moyennes par station.
   -2) produit en sortie les températures moyennes par date/heure.
   -3) produit en sortie les températures par date/heure par station. 
+  
 -p: Spécifie le mode de pression (1, 2 ou 3).
   -1) Produit produit en sortie les pressions minimales, maximales et moyennes par station.
   -2) produit en sortie les pressions moyennes par date/heure.
   -3) produit en sortie les pressions par date/heure par station.
+  
 -m: Contient les informations sur l'humidité : produit en sortie l’humidité maximale pour chaque station.
+
 -h: Contient les informations sur les altitudes : produit en sortie l’altitude pour chaque station.
+
   
 les options peuvent être entrées dans n'importe quel ordre.
 
